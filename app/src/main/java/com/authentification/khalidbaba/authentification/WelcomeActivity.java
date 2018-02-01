@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 /**
@@ -16,6 +18,8 @@ public class WelcomeActivity extends Activity {
 
     TextView Email;
     String _email;
+    EditText password;
+    Button Signin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
